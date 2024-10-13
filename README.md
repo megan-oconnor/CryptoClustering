@@ -11,5 +11,9 @@ Used unsupervised learning techniques to predict if cryptocurrencies are affecte
  - **Create clusters with K-means** using the PCA DataFrame.
 # Results
 ## Best Value for k
-For both the 
+The best k value for both DataFrames, scaled and PCA, appeared to be 4, as seen in the below plots.
+![elbow_plots](https://github.com/megan-oconnor/CryptoClustering/blob/main/Images/elbow_comparison.png)
+</br>
+In the plots below of the classified data, it appears that using fewer features creates more distinct clusters.
+![cluster_plots](https://github.com/megan-oconnor/CryptoClustering/blob/main/Images/cluser_comparisons.png)
 
